@@ -1,0 +1,17 @@
+safe-destination:
+  world: world
+  x: 772
+  y: 64.0
+  z: 1533
+  yaw: 0.0
+  pitch: 0.0
+
+# If destination is blocked, try to find a nearby safe air spot within this radius
+search-radius: 8
+
+# If true, only reroute when WorldGuard indicates mob spawning is blocked at destination
+# (recommended: true)
+only-when-blocked-by-worldguard: true
+
+
+debug: false

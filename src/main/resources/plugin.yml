@@ -1,0 +1,17 @@
+name: ShulkerReroute
+version: 1.0.0
+main: com.errsa.ShulkerReroutePlugin
+api-version: '1.21'
+depend: []
+softdepend: [WorldGuard]
+
+commands:
+  shulkerbay:
+    description: Manage the ShulkerReroute destination.
+    usage: /shulkerbay set
+    permission: shulkerreroute.admin
+
+permissions:
+  shulkerreroute.admin:
+    description: Allows setting the shulker bay destination.
+    default: op
